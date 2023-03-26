@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivityMess">
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_back_blue"/>
+        <ImageView
+            android:paddingLeft="10dp"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/user1"/>
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:paddingTop="5dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tạ Lan"/>
+            <TextView
+                android:paddingTop="1dp"
+                android:textSize="16dp"
+                android:textColor="#4d4d4d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hoạt động 1 giờ trước"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_3_mess"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e9e9e9"/>
+<RelativeLayout
+    android:layout_weight="1"
+    android:id="@+id/rlcha"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:id="@+id/scvmess"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:src="@drawable/user1"/>
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tạ Lan"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:paddingBottom="5dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Các bạn là bạn bè trên Facebook"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#7e7e7e"/>
+            <TextView
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/mess_l_mess"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XEM TRANG CÁ NHÂN"
+                android:textSize="17dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingTop="20dp"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#a8a8a8"
+                android:text="19 TH11, 2022 LÚC 14:47"/>
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user1"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_l_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Hello Một hai ba bốn năm"/>
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/mess_r_mess"
+                    android:text="Hello Một hai ba bốn năm sáu bảy tám chín mười"
+                    android:textColor="@color/white"
+                    android:textSize="17dp" />
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/user1"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#a8a8a8"
+                android:text="14 TH1 LÚC 23:21"/>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user1"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_l_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Chào bạn, tôi đang cần USDT, bạn có muốn bán usdt không?"/>
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_r_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:text="Tôi đang muốn bán với giá 1 USDT = 23580 VND. Bạn thấy có hợp lý không?   "/>
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user1"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_l_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Hmm, giá đó khá cao so với thị trường hiện tại. Bạn có thể giảm xuống một chút được không?"/>
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/mess_r_mess"
+                    android:text="Tôi hiểu, tôi sẽ giảm giá xuống còn 1 USDT = 23500 VND. Bạn thấy như thế có hợp lý không?"
+                    android:textColor="@color/white"
+                    android:textSize="17dp" />
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user1"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_l_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Được rồi, tôi đồng ý với giá đó. Vậy chúng ta sẽ thực hiện giao dịch như thế nào?"/>
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/mess_r_mess"
+                    android:text="Chúng ta có thể sử dụng ví điện tử để thực hiện giao dịch. Bạn có ví nào để nhận USDT không?"
+                    android:textColor="@color/white"
+                    android:textSize="17dp" />
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                   />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user1"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_l_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Có, tôi có ví cá nhân. Bạn có thể chuyển USDT đến địa chỉ ví của tôi được không?"/>
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/mess_r_mess"
+                    android:text="Được rồi, tôi sẽ chuyển USDT đến địa chỉ ví của bạn trên Binance. Nhưng trước đó, bạn có thể cung cấp cho tôi địa chỉ ví USDT của bạn được không?"
+                    android:textColor="@color/white"
+                    android:textSize="17dp" />
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_l_d"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Dạ, đây là địa chỉ ví USDT mạng ERC20 của tôi: 0xA30e555A38c2E8e4B7bcDC70907657E0Cdc5c071"/>
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user1"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_l_u"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Tôi sẽ thanh toán chuyển khoản cho bạn qua tài khoản ngân hàng khi nhận được tiền. Vui lòng gửi số tài khoản ngân hàng của bạn cho tôi."/>
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/mess_r_mess"
+                    android:text="Cảm ơn bạn, tôi sẽ chuyển USDT đến địa chỉ ví của bạn ngay lập tức. Khi bạn nhận được USDT, vui lòng xác nhận cho tôi để tôi biết là giao dịch đã hoàn tất. Stk ngân hàng của tôi: 9704229247158079 ngân hàng mb bank."
+                    android:textColor="@color/white"
+                    android:textSize="17dp" />
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user1"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_l_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Được rồi, tôi sẽ xác nhận ngay khi nhận được USDT. Cảm ơn bạn đã thực hiện giao dịch với tôi."/>
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/mess_r_d"
+                    android:text="Tôi vừa thực hiện chuyển usdt. Bạn đã nhận được usdt của tôi chuyển chưa? Tixid:  0xa02e79ff253889c3b9d7a98b60ee2366bf3c2a9c21532d1a0ed683221a1fb174"
+                    android:textColor="@color/white"
+                    android:textSize="17dp" />
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:layout_weight="0.5"
+                    android:src="@drawable/ns_mess_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="290dp"
+                    />
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user1"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_l_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Tôi nhận được rồi. Chờ tôi thanh toán."/>
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_r_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:text="Tôi vẫn chưa nhận được tiền. Bạn đã chuyển khoản chưa?"/>
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#a8a8a8"
+                android:text="15 TH1 LÚC 00:09"/>
+
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_r_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:text="Bạn có đó không? Tôi vẫn chưa nhận được tiền."/>
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#a8a8a8"
+                android:text="15 TH1 LÚC 8:15"/>
+
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_r_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:text="Bạn lừa tôi. Tại sao bạn không chuyển khoản?"/>
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+            </LinearLayout>
+            <TextView
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#a8a8a8"
+                android:text="15 TH1 LÚC 10:21"/>
+
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="@drawable/mess_r_mess"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:text="Bạn hãy chuyển khoản cho tôi."/>
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/mess_tick_blue"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/down"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/down"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="170dp"
+        />
+    
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/footermess"/>
+
+    </LinearLayout>
+
+</LinearLayout>

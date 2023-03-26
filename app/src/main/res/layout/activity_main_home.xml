@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivityHome">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+        <TextView
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#1a75f7"
+            android:textSize="26dp"
+            android:text="facebook"/>
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="32dp"
+            android:layout_height="42dp"
+            android:src="@drawable/icon_add"/>
+        <View
+            android:layout_width="5dp"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/ivsearch"
+            android:paddingTop="8dp"
+            android:layout_width="32dp"
+            android:layout_height="42dp"
+            android:src="@drawable/icon_search"/>
+        <View
+            android:layout_width="5dp"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/ivhomemess"
+            android:paddingTop="8dp"
+            android:layout_width="32dp"
+            android:layout_height="42dp"
+            android:src="@drawable/icon_mess"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:src="@drawable/home_fb"/>
+
+</LinearLayout>
